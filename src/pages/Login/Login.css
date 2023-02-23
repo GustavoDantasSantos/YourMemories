@@ -1,0 +1,104 @@
+.login 
+{
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login_logo_area 
+{
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-color-login);
+}
+
+.login_access_area
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_access_describe h2
+{
+    color: var(--color-title-login);
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.login_access_describe p 
+{
+    color: var(--background-color-login);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.login_access_form_area form
+{
+    display: grid;
+}
+
+.login_acess_form label
+{
+    width: 42px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 7.5px;
+}
+
+.login_acess_form input[type="email"], .login_acess_form input[type="password"]
+{
+    margin-bottom: 10px;
+    width: 45rem;
+    height: 2rem;
+
+    background-color: rgba(117, 117, 117, 0.05);
+
+    border-radius: 10px;
+    border: none;
+}
+
+.login_acess_form input:hover
+{
+    border: 1px solid var(--color-title-login);
+}
+
+.login_remember_or_forget_pass_area
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_remember_or_forget_pass_area *
+{
+    color: var(--color-title-login);
+}
+
+.login_remember_or_forget_pass_area input[type="checkbox"]
+{
+    border-color: var(--color-title-login);
+}
+
+
+.login_actions
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_actions button 
+{
+    width: 20rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 2px solid #D1495B;
+    border-radius: 10px;
+    cursor: pointer;
+}
